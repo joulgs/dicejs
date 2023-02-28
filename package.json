@@ -74,7 +74,7 @@
   "homepage": "https://github.com/joulgs/dicejs#readme",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/test.ts"
   },
   "devDependencies": {
     "@types/node": "^18.14.2",
