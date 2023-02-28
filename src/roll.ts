@@ -1,5 +1,5 @@
 export default function roll( roll='d6') {
-    const [dices, sides] = roll.split('d')
+    const [dices, sides] = roll.split('d').map((v, i) => v || (i === 0 ? 1 : 6));
     
     console.log('Rolling ' + dices + 'd' + sides + '...')
     
