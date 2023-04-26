@@ -13,7 +13,17 @@ export class Dice {
             rolling: 'Lançando %sd%s...\n',
             diceRoll: "Dado %d rolou %d .",
             roll: "Rolagem %s rolou %d ."
-        }
+        },
+        es: {
+            rolling: 'Lanzando %sd%s...\n',
+            diceRoll: "Dado %d rodó %d .",
+            roll: "Rodaje %s rodó %d ." 
+        },
+        fr: {
+            rolling: 'Roulant %sd%s...\n',
+            diceRoll: "Dé %d roulé %d .",
+            roll: "Rouleau %s roulé %d ."
+        },
     }
     
     constructor(language: string = 'en') {
@@ -33,7 +43,7 @@ export class Dice {
 
             total += roll;
         }
-        
+
         console.log(sprintf(this.messages[this.language]?.roll, roll, total));
     }
 }
