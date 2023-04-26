@@ -24,6 +24,31 @@ export class Dice {
             diceRoll: "Dé %d roulé %d .",
             roll: "Rouleau %s roulé %d ."
         },
+        de: {
+            rolling: 'Rolling %sd%s...\n',
+            diceRoll: "Würfel %d rollte %d .",
+            roll: "Rolle %s rollte %d ."
+        },
+        it: {
+            rolling: 'Rotolando %sd%s...\n',
+            diceRoll: "Dado %d rotolato %d .",
+            roll: "Rotolo %s rotolato %d ."
+        },
+        ru: {
+            rolling: 'Бросок %sd%s...\n',
+            diceRoll: "Кубик %d брошен %d .",
+            roll: "Рулон %s брошен %d ."
+        },
+        ja: {
+            rolling: 'ローリング %sd%s...\n',
+            diceRoll: "ダイス %d が %d になりました。",
+            roll: "ロール %s が %d になりました。"
+        },
+        ko: {
+            rolling: '롤링 %sd%s...\n',
+            diceRoll: "다이스 %d %d .",
+            roll: "롤 %s %d ."
+        },
     }
     
     constructor(language: string = 'en') {
